@@ -1,0 +1,114 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ea7c7c;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.order-form-container {
+  background-color: #e8227b;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+  color: whitesmoke;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium';
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="reset"] {
+  background-color: #dc3545;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+button[type="reset"]:hover {
+  background-color: #c82333;
+}
+
+.checkbox-container {
+  margin-top: 10px;
+}
+
+.checkbox-container input {
+  margin-right: 5px;
+}
+
+.image-gallery {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.image-gallery h2 {
+  color: #333;
+}
+
+.image-gallery img {
+  width: 100%;
+  max-width: 200px;
+  margin: 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
